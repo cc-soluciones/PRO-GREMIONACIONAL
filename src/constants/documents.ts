@@ -1,0 +1,58 @@
+export const documents = [
+    {
+        title: "Estatuto Oficial del GNJR",
+        description: "Documento fundacional y normativo del Gremio Nacional de Juventudes Rurales de Chile.",
+        category: "Legal",
+        size: "2.3 MB",
+        date: "2024",
+    },
+    {
+        title: "Manual del Socio",
+        description: "Guía completa para socios del GNJR: derechos, deberes y beneficios de la membresía.",
+        category: "Membresía",
+        size: "1.8 MB",
+        date: "2024",
+    },
+    {
+        title: "Política de Juventud Rural",
+        description: "Propuesta integral del GNJR para el desarrollo de políticas públicas dirigidas a la juventud rural.",
+        category: "Políticas Públicas",
+        size: "3.2 MB",
+        date: "2024",
+    },
+    {
+        title: "Informe de Actividades 2023-2024",
+        description: "Resumen de las principales actividades, logros y desafíos del gremio durante el último período.",
+        category: "Informes",
+        size: "4.5 MB",
+        date: "2024",
+    },
+    {
+        title: "Presentación Institucional",
+        description: "Material de presentación oficial del GNJR para uso en eventos, reuniones y alianzas.",
+        category: "Institucional",
+        size: "5.1 MB",
+        date: "2024",
+    },
+    {
+        title: "Acta Asamblea General 2024",
+        description: "Acta oficial de la última asamblea general de socios del GNJR.",
+        category: "Actas",
+        size: "890 KB",
+        date: "2024",
+    },
+    {
+        title: "Declaración de Principios",
+        description: "Documento que establece los valores, principios y compromisos fundamentales del gremio.",
+        category: "Institucional",
+        size: "1.2 MB",
+        date: "2024",
+    },
+    {
+        title: "Política de Transparencia y Probidad",
+        description: "Marco normativo para la gestión transparente y ética del GNJR.",
+        category: "Legal",
+        size: "1.5 MB",
+        date: "2024",
+    },
+];
