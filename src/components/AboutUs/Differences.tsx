@@ -1,13 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
 
-import { differences } from "@/constants/aboutUs";
+import { titleDifferences, differences } from "@/constants/aboutUs";
 
 export const Differences = () => (
     <section className="py-20">
         <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
                 <h2 className="text-3xl font-bold mb-6 text-center">
-                    ¿Por qué GNJR?
+                    {titleDifferences}
                 </h2>
                 <Card>
                     <CardContent className="pt-6">

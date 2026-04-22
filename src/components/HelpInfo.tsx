@@ -19,12 +19,16 @@ interface Props {
     children: ReactNode;
     label?: string;
     side?: "top" | "left" | "right" | "bottom";
+    position?: "start" | "center" | "end";
+    className?: string;
 };
 
 export const HelpInfo = ({
     children,
     label = "",
-    side = "top"
+    side = "top",
+    position = "center",
+    className = "",
 } : Props) => {
 
     const isMobile = useIsMobile();
@@ -35,7 +39,7 @@ export const HelpInfo = ({
                 <PopoverTrigger asChild>
                     {children}
                 </PopoverTrigger>
-                <PopoverContent className="w-48 text-sm" side={side}>
+                <PopoverContent className={`w-48 text-sm ${className}`} side={side} align={position}>
                     {label}
                 </PopoverContent>
             </Popover>
@@ -48,7 +52,9 @@ export const HelpInfo = ({
                 <TooltipTrigger asChild>
                     {children}
                 </TooltipTrigger>
-                <TooltipContent side={side}>{label}</TooltipContent>
+                <TooltipContent side={side} align={position} className={className}>
+                    {label}
+                </TooltipContent>
             </Tooltip>
         </TooltipProvider>
     );
