@@ -13,12 +13,7 @@ export const Map = () => (
                 </p>
             </div>
 
-            <div className="max-w-4xl h-400 mx-auto flex items-center justify-center">
-                {/* <img
-                    src="/map-of-chile-regions-infographic.jpg"
-                    alt="Mapa de operaciones"
-                    className="w-full h-auto rounded-lg shadow-lg"
-                /> */}
+            <div className="max-w-4xl h-210 mx-auto flex items-center justify-center aspect-[280/1640]">
                 <MapChile/>
             </div>
         </div>

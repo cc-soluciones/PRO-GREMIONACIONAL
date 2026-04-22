@@ -8,7 +8,7 @@ export const MapChile = (props: any) => {
         <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1640 280"
-            className="w-full h-auto rotate-90 scale-180"
+            className="w-full h-auto rotate-90 scale-600"
             preserveAspectRatio="xMidYMid meet"
             {...props}
         >
