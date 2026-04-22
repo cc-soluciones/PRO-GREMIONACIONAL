@@ -1,3 +1,5 @@
+import { MapChile } from "@/components/svg/MapChile";
+
 export const Map = () => (
     <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
@@ -11,12 +13,13 @@ export const Map = () => (
                 </p>
             </div>
 
-            <div className="max-w-4xl mx-auto">
-                <img
+            <div className="max-w-4xl h-400 mx-auto flex items-center justify-center">
+                {/* <img
                     src="/map-of-chile-regions-infographic.jpg"
                     alt="Mapa de operaciones"
                     className="w-full h-auto rounded-lg shadow-lg"
-                />
+                /> */}
+                <MapChile/>
             </div>
         </div>
     </section>
