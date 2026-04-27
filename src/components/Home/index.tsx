@@ -4,10 +4,12 @@ import { Stories } from "@/components/Home/Stories";
 import { News } from "@/components/Home/News";
 import { Join } from "@/components/Home/Join";
 
-export {
-    Hero,
-    Pillars,
-    Stories,
-    News,
-    Join
-};
+export const Home = () => (
+    <>
+        <Hero/>
+        <Pillars/>
+        <Stories/>
+        <News/>
+        <Join/>
+    </>
+);

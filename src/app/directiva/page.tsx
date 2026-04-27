@@ -1,3 +1,5 @@
-import { DirectivePage } from "@/pages/DirectivePage";
+"use client";
 
-export default DirectivePage;
+import { Directive } from "@/components/Directive";
+
+export default Directive;

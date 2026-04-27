@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Card, CardTitle, CardContent } from "@/components/ui/card";
 import { MapChile } from "@/components/svg/MapChile";
-import { titleMap, descriptionMap, titleMembers, members, map } from "@/constants/aboutUs";
-
+import { members } from "@/constants/general";
+import { map } from "@/constants/general";
+import { titleMap, descriptionMap, titleMembers } from "@/constants/aboutUs";
 
 export const Map = () => {
     const [ selectedRegion, setSelectedRegion ] = useState<string | null>(null);

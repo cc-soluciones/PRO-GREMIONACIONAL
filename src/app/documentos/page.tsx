@@ -1,3 +1,3 @@
-import { DocumentsPage } from "@/pages/DocumentsPage"; 
+import { Documents } from "@/components/Documents"; 
 
-export default DocumentsPage;
+export default Documents;

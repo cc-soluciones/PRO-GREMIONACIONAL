@@ -1,5 +1,5 @@
 "use client"
 
-import { ContactPage } from "@/pages/ContactPage";
+import { Contact } from "@/components/Contacts";
 
-export default ContactPage;
+export default Contact;

@@ -1,5 +1,5 @@
 "use client"
 
-import { JoinPage } from "@/pages/JoinPage";
+import { Join } from "@/components/Join";
 
-export default JoinPage;
+export default Join;

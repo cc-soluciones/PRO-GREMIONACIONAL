@@ -1,3 +1,3 @@
-import { NewsPage } from "@/pages/NewsPage";
+import { News } from "@/components/News";
 
-export default NewsPage;
+export default News;

@@ -1,7 +1,7 @@
 "use client";
 
 import { HelpInfo } from "@/components/HelpInfo";
-import { map } from "@/constants/aboutUs";
+import { map } from "@/constants/general";
 
 export const MapChile = (props: any) => {
     // const handleOnHover = (e: React.MouseEvent<SVGPathElement, MouseEvent>) => {
