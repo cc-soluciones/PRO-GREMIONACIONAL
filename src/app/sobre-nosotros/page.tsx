@@ -1,5 +1,5 @@
 "use client";
 
-import { AboutUsPage } from "@/pages/AboutUsPage";
+import { AboutUs } from "@/components/AboutUs";
 
-export default AboutUsPage;
+export default AboutUs;

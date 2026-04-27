@@ -1,3 +1,3 @@
-import { ProgramsPage } from "@/pages/ProgramsPage";
+import { Programs } from "@/components/Programs";
 
-export default ProgramsPage;
+export default Programs;

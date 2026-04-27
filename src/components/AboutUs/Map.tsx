@@ -20,7 +20,7 @@ export const Map = () => {
 
                 <div className="flex md:flex-nowrap flex-wrap-reverse justify-center items-center gap-10">
                     <div className="max-w-4xl h-300 mx-auto flex items-center justify-center aspect-[280/1640]">
-                        <MapChile setSelectedRegion={setSelectedRegion} />
+                        <MapChile/>
                     </div>
                     <Card className="p-6 w-full md:w-auto">
                         <CardTitle className="md:text-2xl text-center">
